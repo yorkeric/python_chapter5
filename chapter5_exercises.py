@@ -1,3 +1,14 @@
+def is_prime(num):
+    for i in range(2, num):
+        if(num % i) == 0:
+            return False;
+    return True
+
+for i in range(1, 101):
+    if(is_prime(i)):
+        print(i)
+
+
 # Algorithm Workbench
 
 # Question 1
@@ -52,16 +63,33 @@ print("Total income in ticket sales:", get_class_a_total_sales() + get_class_b_t
 # Loop through the range starting at 2 and for each number in the range check if divisble by that number
 # If any of the numbers in that range are divisible by that number, then stop checking as the number is prime
 # Print a statment if the number is prime or not
+# Check if number is 1 and return is not prime
 def is_prime(num):
-    result = False
-    for i in range(2, num):
-        if(num % i)==0:
-            result = True
-            break
-    return result
+    if(num == 1):
+        return False
+    else:
+        for i in range(2, num):
+             if(num % i) == 0:
+                return False
+        return True
 input_number = int(input("Enter number to check if prime: "))
 if(is_prime(input_number)):
     print("The number is prime")
 else: 
     print("The number is not prime")
+    
 # Question 18 - Prime Number List
+# Using the is_prime function, print out all the prime numbers from 1 to 100
+# Loop over the range, check the function, and print the number if is prime 
+def is_prime(num):
+    if(num == 1):
+        return False
+    else:
+        for i in range(2, num):
+             if(num % i) == 0:
+                return False
+        return True
+print("All the numbers from 1 to 100 that are prime:")
+for i in range(1, 101):
+    if(is_prime(i)):
+        print(i)
