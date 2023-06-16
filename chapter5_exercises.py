@@ -22,6 +22,10 @@ print(rand)
 # Question 1 - Kilometer Converter
 # Write program that accepts distance (in kilometers)
 # Converts from kilometers to miles
+# Prompt for the distance in kilometers 
+# Write function that accepts the input of kilometers and returns the miles 
+# Call function to convert to miles
+# Print the total miles
 def convert_to_miles(kilometers):
     return kilometers * .6214
 kilometers = int(input("Enter distance in kilometers: "))
