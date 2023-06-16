@@ -47,4 +47,11 @@ def get_class_c_total_sales():
 print("Total income in ticket sales:", get_class_a_total_sales() + get_class_b_total_sales() + get_class_c_total_sales())
 
 # Question 17 - Prime Numbers
+def is_prime(num):
+    for i in range(2, num):
+        if(num % i)==0:
+            return True
+input_number = int(input("Enter number to check if prime: "))
+
+print(is_prime(input_number))
 # Question 18 - Prime Number List
