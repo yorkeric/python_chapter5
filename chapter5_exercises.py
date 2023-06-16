@@ -47,11 +47,16 @@ def get_class_c_total_sales():
 print("Total income in ticket sales:", get_class_a_total_sales() + get_class_b_total_sales() + get_class_c_total_sales())
 
 # Question 17 - Prime Numbers
+# Calculate if input number is prime or not prime
+# Prime numbers are only evenly divisible by itself and 0
+# Loop through the range starting at 2 and for each number in the range check if divisble by that number
+# If any of the numbers in that range are divisible by that number, then stop checking as the number is prime
+# Print a statment if the number is prime or not
 def is_prime(num):
+    result = False
     for i in range(2, num):
         if(num % i)==0:
-            return True
+            result = True
+    return result
 input_number = int(input("Enter number to check if prime: "))
-
-print(is_prime(input_number))
 # Question 18 - Prime Number List
