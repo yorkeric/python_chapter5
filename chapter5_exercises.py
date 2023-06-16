@@ -43,6 +43,7 @@ def get_class_b_total_sales():
     return int(input("Class B tickets sold: ")) * 15
 def get_class_c_total_sales():
     return int(input("Class C tickets sold: ")) * 10
+print("Total income in ticket sales:", get_class_a_total_sales() + get_class_b_total_sales() + get_class_c_total_sales())
 
 # Question 17 - Prime Numbers
 # Question 18 - Prime Number List
