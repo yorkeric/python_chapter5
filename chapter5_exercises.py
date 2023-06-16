@@ -9,3 +9,10 @@ def times_ten(num):
     print(str(num) + " x 10 =", (num * 10))
 times_ten(10)
 
+# Question 6
+# Write a statement that generates a randome number between 1 and 100
+# Assign to variable named rand
+# Print the value of rand
+import random
+rand = random.randint(1, 100)
+print(rand)
