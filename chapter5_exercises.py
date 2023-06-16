@@ -31,3 +31,18 @@ def convert_to_miles(kilometers):
 kilometers = int(input("Enter distance in kilometers: "))
 miles = convert_to_miles(kilometers)
 print("Total miles:", miles)
+
+# Question 7 - Stadium Seating
+# Write a program that calcuates the income generated from ticket sales
+# Prompt for the number of tickets sold for Class A, Class B, and Class C
+# Write a function for each class that accepts number of tickets sold and returns the total amount
+# Calculate total by adding each total amount per class
+def get_class_a_total_sales():
+    return int(input("Class A tickets sold: ")) * 20
+def get_class_b_total_sales():
+    return int(input("Class B tickets sold: ")) * 15
+def get_class_c_total_sales():
+    return int(input("Class C tickets sold: ")) * 10
+
+# Question 17 - Prime Numbers
+# Question 18 - Prime Number List
