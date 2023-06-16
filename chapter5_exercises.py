@@ -16,3 +16,12 @@ times_ten(10)
 import random
 rand = random.randint(1, 100)
 print(rand)
+
+# Programming Exercises
+
+# Question 1 - Kilometer Converter
+# Write program that accepts distance (in kilometers)
+# Converts from kilometers to miles
+def convert_to_miles(kilometers):
+    return kilometers * .6214
+kilometers = int(input("Enter distance in kilometers: "))
