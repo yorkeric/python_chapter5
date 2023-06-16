@@ -25,3 +25,5 @@ print(rand)
 def convert_to_miles(kilometers):
     return kilometers * .6214
 kilometers = int(input("Enter distance in kilometers: "))
+miles = convert_to_miles(kilometers)
+print("Total miles:", miles)
