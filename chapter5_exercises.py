@@ -1,5 +1,6 @@
+# ----------------------------------------------
 # Algorithm Workbench
-
+# ----------------------------------------------
 # Question 1
 # Write a function that accepts an argument and displays the argument multiplied by 10
 # delclar a function named times_ten and add print statment to display result
@@ -17,8 +18,9 @@ import random
 rand = random.randint(1, 100)
 print(rand)
 
+# ----------------------------------------------
 # Programming Exercises
-
+# ----------------------------------------------
 # Question 1 - Kilometer Converter
 # Write program that accepts distance (in kilometers)
 # Converts from kilometers to miles
