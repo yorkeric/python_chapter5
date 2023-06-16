@@ -1,14 +1,3 @@
-def is_prime(num):
-    for i in range(2, num):
-        if(num % i) == 0:
-            return False;
-    return True
-
-for i in range(1, 101):
-    if(is_prime(i)):
-        print(i)
-
-
 # Algorithm Workbench
 
 # Question 1
