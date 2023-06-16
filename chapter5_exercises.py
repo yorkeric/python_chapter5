@@ -35,8 +35,9 @@ print("Total miles:", miles)
 # Question 7 - Stadium Seating
 # Write a program that calcuates the income generated from ticket sales
 # Prompt for the number of tickets sold for Class A, Class B, and Class C
-# Write a function for each class that accepts number of tickets sold and returns the total amount
+# Write a function for each ticket class that will prompt for tickets sold and return the total amount
 # Calculate total by adding each total amount per class
+# Print will call each function, add the total amount per class, and display a message with the total
 def get_class_a_total_sales():
     return int(input("Class A tickets sold: ")) * 20
 def get_class_b_total_sales():
