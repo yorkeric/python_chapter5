@@ -57,6 +57,11 @@ def is_prime(num):
     for i in range(2, num):
         if(num % i)==0:
             result = True
+            break
     return result
 input_number = int(input("Enter number to check if prime: "))
+if(is_prime(input_number)):
+    print("The number is prime")
+else: 
+    print("The number is not prime")
 # Question 18 - Prime Number List
